@@ -35,7 +35,7 @@ def math(num1, operation, num2):
     elif operation == '**':
         return str(num1 ** num2)
     else:
-        return 'Invalid Operation, use: +, -, *, div or %'
+        return 'Invalid Operation, use: +, -, *, % or div'
 
 if __name__ == '__main__':
     app.run(port=5555, debug=True)
